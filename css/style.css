@@ -1,0 +1,164 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #b71c1c;
+}
+
+nav .brand-logo {
+  font-family: 'Rock Salt', cursive;
+}
+
+.nav-wrapper {
+    padding: 0px 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.icon-logo {
+  height: 65px;
+  width: 65px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.icon-social {
+  padding: 5% 5% 5% 5%;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro {
+    height: 100%;
+    width: 100%;
+  }
+
+.header {
+    margin-top: 10%;
+    color: #b71c1c;
+  }
+
+.header-subtitle {
+  margin-top: 15%;
+  font-size: 2em;
+}
+
+.header2 {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  font-size: 2.5em;
+}
+
+.header3 {
+  margin-top: 5%;
+  margin-bottom: 15%;
+  font-size: 2.5em;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+    padding: 0px 10px;
+}
+
+.brand-logo { 
+ width: auto;
+  max-height: 5%;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+}
+
+.section-contattaci {
+  height: 100%;
+  width: 100%;
+}
+
+.col-servizio {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.banner-cont {
+  font-size: 2em;
+}
+
+.icon-block {
+  padding: 0 5%;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.icon-png {
+  padding-bottom: 8%;
+}
+
+.section-lavori {
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.lavori-icon {
+  font-size: 7em;
+  margin-top: 10%
+}
+
+.btn-registrazione {
+  width: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #CE8147;
+}
+
+.icon-footer {
+  font-size: 2.3em;
+  color: black;
+  padding: 2% 2% 0% 0%;
+}
+
+.icon-footer:hover {
+  color: #b71c1c;
+}
+

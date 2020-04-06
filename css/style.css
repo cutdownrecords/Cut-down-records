@@ -89,14 +89,15 @@ p {
   }
 
   .nav-wrapper {
-    padding: 0px 10px;
+    padding-left: 1px;
+    padding-right: 5px;
 }
 
 nav .brand-logo {
   font-family: 'Rock Salt', cursive;
-    font-size: 0.9em;
+    font-size: 1em;
 }
-}
+
 
 iframe {
   max-width: 100%;

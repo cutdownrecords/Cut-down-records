@@ -13,6 +13,7 @@ nav .brand-logo {
 
 nav .brand-logo {
   font-family: 'Rock Salt', cursive;
+    font-size: 2em;
 }
 
 .nav-wrapper {
@@ -91,9 +92,10 @@ p {
     padding: 0px 10px;
 }
 
-.brand-logo { 
- width: auto;
-  max-height: 5%;
+nav .brand-logo {
+  font-family: 'Rock Salt', cursive;
+    font-size: 0.9em;
+}
 }
 
 iframe {

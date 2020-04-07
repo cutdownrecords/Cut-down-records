@@ -22,10 +22,6 @@ nav .brand-logo {
     width: 100%;
 }
 
-.icon-logo {
-  height: 65px;
-  width: 65px;
-}
 
 p {
   line-height: 2rem;
@@ -84,7 +80,7 @@ p {
     top: 0;
   }
 
-  .nav-wrapper {
+.nav-wrapper {
     padding-left: 1px;
     padding-right: 5px;
 }
@@ -108,6 +104,11 @@ iframe {
 }
 
 .col-servizio {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.col-contattaci {
   margin-top: 10%;
   margin-bottom: 10%;
 }

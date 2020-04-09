@@ -44,6 +44,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     return elems;
   }
 
+   document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
   var frag;
   function parseHTML(str) {
     if (!frag) {

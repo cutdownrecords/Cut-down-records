@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #b71c1c;

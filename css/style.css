@@ -6,10 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-body{
-  font-family: 'Baloo Paaji 2', cursive;
-}
-
 nav ul a,
 nav .brand-logo {
   color: #b71c1c;
@@ -17,7 +13,6 @@ nav .brand-logo {
 
 nav .brand-logo {
   font-family: 'Rock Salt', cursive;
-    font-size: 2em;
 }
 
 .nav-wrapper {
@@ -26,6 +21,10 @@ nav .brand-logo {
     width: 100%;
 }
 
+.icon-logo {
+  height: 65px;
+  width: 65px;
+}
 
 p {
   line-height: 2rem;
@@ -52,10 +51,14 @@ p {
   }
 
 .header {
-   margin-top: 30%;
-  font-size: 3em;
-}
+    margin-top: 10%;
+    color: #b71c1c;
+  }
 
+.header-subtitle {
+  margin-top: 15%;
+  font-size: 2em;
+}
 
 .header2 {
   margin-top: 15%;
@@ -84,21 +87,14 @@ p {
     top: 0;
   }
 
-.nav-wrapper {
-    padding-left: 1px;
-    padding-right: 5px;
+  .nav-wrapper {
+    padding: 0px 10px;
 }
 
-nav .responsive-img{
-  max-height: 100%;
-  width: auto;
+.brand-logo { 
+ width: auto;
+  max-height: 5%;
 }
-
-nav .brand-logo {
-  font-family: 'Rock Salt', cursive;
-    font-size: 0.9em;
-}
-
 
 iframe {
   max-width: 100%;
@@ -113,11 +109,6 @@ iframe {
 }
 
 .col-servizio {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.col-contattaci {
   margin-top: 10%;
   margin-bottom: 10%;
 }
@@ -149,7 +140,7 @@ iframe {
 
 .lavori-icon {
   font-size: 7em;
-  margin-top: 5%
+  margin-top: 10%
 }
 
 .btn-registrazione {
